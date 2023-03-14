@@ -25,8 +25,6 @@ function createGalleryMarkup(galleryItems) {
 		.join("");
 }
 
-galleryEl.addEventListener("click", lightbox);
-
 var lightbox = new SimpleLightbox(".gallery .gallery__link", {
 	captionsData: "alt",
 	captionDelay: 250,
